@@ -1,0 +1,20 @@
+.tablist {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid lightgrey;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  li {
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    &:hover {
+      cursor: pointer;
+      border-bottom: 1px solid grey;
+    }
+  }
+}
